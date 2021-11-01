@@ -1,0 +1,14 @@
+virtualenv venv -p python3 -> iinstala python em um ambiente virtual
+source venv/bin/activate   -> ativa a ambientação pelo terminal
+pip install scrapy -> instala o framework
+
+touch nomedoarquivo.py -> cria o arquivo para trabalhar
+scrapy startproject nomeprojeto -> cria um projeto novo
+scrapy genspider nome nome.com -> cria uma spider padrão
+
+scrapy shell -> ambiente de teste no terminal
+selector gags -> plugin para facilitar a busca de css
+
+scrapy crawl imdb -> rodar o scrapy
+scrapy crawl imdb -O nome.json(csv,...) -> salva um arquivo
+(O sobreescreve | o adiciona)
